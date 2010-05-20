@@ -1,0 +1,13 @@
+= INPUT
+
+Parsea archivos como caja_chica.xls (disponible en este mismo repositorio). Acepta cualquier cantidad de pesta?as pero el formato del archivo se debe mantener. 
+
+Toma el archivo caja_chica.xls de ./ y la salida es en ./caja_chica.csv
+
+= OUTPUT
+
+El csv es un merge de todas las pesta?as de caja_chica.xls
+
+= PENDING
+
+Hay algun error en el encoding de caja_chica.csv se puede hacer un cat y el archivo se ve bien pero no puedo abrirlo dese un editor de texto u ooffice

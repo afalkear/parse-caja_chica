@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/parse.rb" line="13" />
+    <bookmark url="file://$PROJECT_DIR$/parse.rb" line="16" />
   </component>
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="c6391aaf-f7a3-44ab-a0b2-d00621ac8c15" name="Default" comment="" />
@@ -26,17 +26,7 @@
   </component>
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="parse.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/parse.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="3" selection-start="844" selection-end="844" vertical-scroll-proportion="0.72742474">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -231,7 +221,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/parse.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="3" selection-start="844" selection-end="844" vertical-scroll-proportion="0.72742474">
+        <state line="32" column="3" selection-start="811" selection-end="811" vertical-scroll-proportion="0.72742474">
           <folding />
         </state>
       </provider>
