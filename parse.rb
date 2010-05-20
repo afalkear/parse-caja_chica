@@ -13,7 +13,7 @@ FasterCSV.open("caja_chica.csv","w") do |csv|
   # csv header
   csv << %W(date teacher desc inc out concept)
 
-  # iterate through xls sheets
+  # iterate through xls sheets skipping first two (model and non-caja_chica movements)
   (2...wb.sheet_count).each do |sn|
     ws = wb.worksheet(sn)
     date = ws.row(0).at(1).date
