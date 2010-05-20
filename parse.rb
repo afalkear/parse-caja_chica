@@ -4,16 +4,20 @@ require 'fastercsv'
 
 caja_chica_path = "caja_chica.xls"
 
-# open file
+# open file xls file
 wb = Spreadsheet::ParseExcel.parse(caja_chica_path)
 
+# create csv file
 FasterCSV.open("caja_chica.csv","w") do |csv|
+
+  # csv header
   csv << %W(date teacher desc inc out concept)
 
-  # iterate through sheets
+  # iterate through xls sheets
   (2...wb.sheet_count).each do |sn|
     ws = wb.worksheet(sn)
     date = ws.row(0).at(1).date
+
     # iterate through data box in work sheet
     (4...74).each do |n|
       row = ws.row(n)
